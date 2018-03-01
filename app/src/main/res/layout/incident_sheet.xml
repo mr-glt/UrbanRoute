@@ -20,7 +20,8 @@
         android:id="@+id/cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#263238">
+        android:backgroundTint="#263238"
+        card_view:cardCornerRadius="0dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
