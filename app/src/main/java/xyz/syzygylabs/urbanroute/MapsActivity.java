@@ -69,6 +69,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private Location lastLocation;
     private double scanRange = 1.5; //In km
     private BottomSheetLayout bottomSheet;
+    private FloatingActionButton actionButton;
+    private FloatingActionMenu actionMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
