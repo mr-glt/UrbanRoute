@@ -52,10 +52,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 
-import me.toptas.fancyshowcase.FancyShowCaseQueue;
-import me.toptas.fancyshowcase.FancyShowCaseView;
-import me.toptas.fancyshowcase.OnViewInflateListener;
-
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
 
     private GoogleMap map;
